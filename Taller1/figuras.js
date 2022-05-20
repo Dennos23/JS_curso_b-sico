@@ -97,21 +97,21 @@ function alturaTrianguloIsoscelesExtra(lado1, lado2, base){
 }
 
 
-function alturaTrianguloIsoscelesHTML(){
+// function alturaTrianguloIsoscelesHTML(){
 
-    const lado1 = document.getElementById("InputLado1Triangulo");
-    valorLado1 = lado1.value;
-    const lado2 = document.getElementById("InputLado2Triangulo");
-    valorLado2 = lado2.value;
-    const base = document.getElementById("InputBaseTriangulo");
-    valorBase = base.value;
+//     const lado1 = document.getElementById("InputLado1Triangulo");
+//     valorLado1 = lado1.value;
+//     const lado2 = document.getElementById("InputLado2Triangulo");
+//     valorLado2 = lado2.value;
+//     const base = document.getElementById("InputBaseTriangulo");
+//     valorBase = base.value;
 
-    if ( valorlado1 == valorlado2){
-        alert("El triángulo si es isósceles");
-        const altura = Math.sqrt((valorLado1*valorLado1)- ((valorBase/2)*(valorBase/2)));
-        alert("La altura del triángulo es: " + altura + "cm");
-    } else {
-        alert("El triángulo no es isósceles, no se pudo calcular su area");
-    }
+//     if ( valorlado1 == valorlado2){
+//         alert("El triángulo si es isósceles");
+//         const altura = Math.sqrt((valorLado1*valorLado1)- ((valorBase/2)*(valorBase/2)));
+//         alert("La altura del triángulo es: " + altura + "cm");
+//     } else {
+//         alert("El triángulo no es isósceles, no se pudo calcular su area");
+//     }
 
-}
+// }
